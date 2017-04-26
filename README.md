@@ -14,7 +14,7 @@ I converted this app to SFDX by doing the following:
 
 5. Retrieved the package: `sfdx force:mdapi:retrieve --jobid [JOBID] --retrievetargetdir ./mdapipackage`
 
-6. Unzipped the paackage: `unzip mdapipackage/unpackaged.zip -d mdapipackage/`
+6. Unzipped the package: `unzip mdapipackage/unpackaged.zip -d mdapipackage/`
 
 7. Removed the zip: `rm mdapipackage/unpackaged.zip`
 
